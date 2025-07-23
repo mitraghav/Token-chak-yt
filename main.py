@@ -7,77 +7,15 @@ GRAPH_API_URL = "https://graph.facebook.com/v18.0"
 
 # Updated HTML & CSS Template
 HTML_TEMPLATE = """
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Token Checker by Sʌɱɘɘʀ</title>
-       <link rel="stylesheet" href="/css/tokenCheck.css">
-          <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: linear-gradient(to right, #FF00FF, #BA55D3, #9370DB);
-            background-size: cover;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 90%;
-            max-width: 400px;
-            margin: 100px auto;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
-        }
-        h2 {
-            margin-bottom: 20px;
-            font-size: 22px;
-            text-transform: uppercase;
-        }
-        input {
-            width: 90%;
-            padding: 10px;
-            margin: 10px 0;
-            border: none;
-            background: black;
-            color: white;
-            border-radius: 5px;
-            text-align: center;
-        }
-        button {
-            width: 95%;
-            padding: 10px;
-            background: blue;
-            color: white;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        button:hover {
-            background: linear-gradient(45deg, #007e33, #00c851);;
-        }
-        .result {
-            margin-top: 20px;
-            padding: 10px;
-            background: gray;
-            border-radius: 5px;
-            color: white;
-    }
-        li {
-        margin: 10px 0;
-        padding: 5px;
-    }
-      
-    </style>
-</head>
-<body>
-    <div class="container">
+    <link rel="stylesheet" href="/css/tokenCheck.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
